@@ -1,0 +1,25 @@
+{
+  "name": "hipstagram-server",
+  "version": "1.0.0",
+  "description": "Server for Hipstagram",
+  "scripts": {
+    "start": "node application.js",
+    "dev": "forever -w application.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleksey Dmitriev",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "casper": "^0.1.1",
+    "casperjs": "^1.1.3",
+    "express": "^4.14.0",
+    "glob": "^7.0.6",
+    "jimp": "^0.2.27",
+    "mongoose": "^4.6.0",
+    "multer": "^1.2.0"
+  },
+  "devDependencies": {
+    "forever": "^0.15.2"
+  }
+}
